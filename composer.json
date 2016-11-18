@@ -1,0 +1,29 @@
+{
+    "name": "felipecwb/soundslike",
+    "type": "library",
+    "license": "MIT",
+    "description": "Sounds Like Text Search",
+    "homepage": "https://github.com/felipecwb/soundslike",
+    "keywords": ["text", "fulltext", "search"],
+    "authors": [{
+            "name": "Felipe Francisco",
+            "email": "felipefrancisco.cwb@gmail.com",
+            "homepage": "http://felipecwb.com.br"
+    }],
+    "autoload": {
+        "psr-4": {
+            "Felipecwb\\SoundsLike\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Felipecwb\\SoundsLike\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "ext-mbstring": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "5.5.*"
+    }
+}
